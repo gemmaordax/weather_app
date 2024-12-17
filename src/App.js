@@ -5,7 +5,7 @@ import backgroundIMG from "./img/fondo.jpg";
 function App() {
   const [location, setLocation] = useState(""); 
   const [data, setData] = useState({}); 
-  const [imageUrl, setImageUrl] = useState(""); 
+  const [imageUrl, setImageUrl]= useState(backgroundIMG);
   const [error, setError] = useState(""); 
   const [isInitialLoad, setIsInitialLoad] = useState(true); 
   const [isTransitioning, setIsTransitioning] = useState(false); 
@@ -61,6 +61,8 @@ function App() {
         (error) => {
           setError("Unable to retrieve your location.");
           console.error("Error getting geolocation", error);
+          setImageUrl(backgroundIMG);
+          setIsInitialLoad(false); 
         }
       );
     }
