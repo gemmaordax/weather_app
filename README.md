@@ -1,70 +1,20 @@
-# Getting Started with Create React App
+# Weather App - Aplicación de Clima 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto es una aplicación web llamada WeatherApp, diseñada para mostrar el clima actual de cualquier ubicación ingresada por el usuario, junto con una imagen de fondo obtenida de Unsplash, relacionada con el lugar. La aplicación proporciona información sobre la temperatura, la humedad, el viento y la sensación térmica.
 
-## Available Scripts
+Aunque el proyecto se encuentra en desarrollo, ya cuenta con una funcionalidad básica que permite al usuario:
 
-In the project directory, you can run:
+- Obtener el clima actual de la ubicación ingresada.
+- Ver una imagen de fondo personalizada para cada ciudad.
+- Consultar datos adicionales como la humedad y la velocidad del viento.
 
-### `npm start`
+La aplicación utiliza la API de OpenWeather para obtener la información meteorológica y la API de Unsplash para las imágenes.
+Características:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Buscar el clima por ubicación.
+- Mostrar una imagen de fondo basada en el lugar.
+- Información detallada sobre el clima, como temperatura, sensación térmica, humedad y viento.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Puedes ver la demostración en vivo de la web en el siguiente enlace:
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Live Demo](https://gemmaordax.github.io/weather_app)
